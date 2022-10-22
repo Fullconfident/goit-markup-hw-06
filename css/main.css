@@ -388,7 +388,7 @@ color: var(--second-main-color);
 .footer-conteiner {
  display: flex;
  align-items: baseline;
- margin-left: 70px;
+
 }
     
 .footer-soc-icon {
@@ -409,7 +409,7 @@ color: var(--second-main-color);
 }
 
 .followus {
-    display: flex;
+    display: inline-block;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;

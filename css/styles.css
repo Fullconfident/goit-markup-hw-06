@@ -601,7 +601,7 @@ margin-bottom: 20px;
 }
 
 .followus {
-    display: flex;
+    display: inline-block;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -677,6 +677,7 @@ margin-bottom: 20px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding: 40px;
 }
 
 .model-btn{
@@ -718,17 +719,16 @@ margin-bottom: 20px;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-    margin-top: 40px;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .model-form{
-    padding: 40px;
 }
 
 .form-field {
     position: relative;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 .form-input {
@@ -754,14 +754,11 @@ margin-bottom: 20px;
 
 
 .form-label {
-    position: absolute;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: var(--main-text-color);
-    top: -50%;
-    left: 0;
-    transform: translateY(20%);
+    margin-bottom: 4px;
 }
 
 .icon-form {
@@ -770,7 +767,6 @@ margin-bottom: 20px;
     top: 50%;
     left: 12px;
     display: inline-block;
-    transform: translateY(-50%);
     transition: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -779,14 +775,11 @@ margin-bottom: 20px;
 }
 
 .commentar {
-    position: absolute;
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.01em;
     color: var(--main-text-color);
-    top: 0;
-    left: 0;
-    transform: translateY(-120%);
+    margin-bottom: 4px;
 }
 
 .form-area {
@@ -817,7 +810,7 @@ textarea {
 }
 
 .form-checkbox {
-    padding-top: 20px;
+    margin-top: 20px;
 }
 
 .label-check {
@@ -854,20 +847,20 @@ textarea {
     cursor: pointer;
 }
 
-.input-checkbox:checked + .icon-checkbox {
-    border-color: #2196f3;
-    background-color: #2196f3;
-    background-image: url(../images/icon.svg#icon-check);
-    background-size: contain;
-    background-origin: border-box;
-}
-
 .policy {
     font-size: 14px;
     line-height: 1.71;
     margin-left: 5px;
     letter-spacing: 0.03em;
     color: var(--second-main-color);
+}
+
+.input-checkbox:checked + .icon-checkbox {
+    border-color: #2196f3;
+    background-color: #2196f3;
+    background-image: url(../images/icon.svg#icon-icon-check-2-1);
+    background-size: contain;
+    background-origin: border-box;
 }
 
 .form-btn {
