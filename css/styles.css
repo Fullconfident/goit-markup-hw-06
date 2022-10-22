@@ -858,7 +858,7 @@ textarea {
 .input-checkbox:checked + .icon-checkbox {
     border-color: #2196f3;
     background-color: #2196f3;
-    background-image: url(../images/icon.svg#icon-icon-check-2-1);
+    background-image: url(../images/icon-check-0.svg);
     background-size: contain;
     background-origin: border-box;
 }
